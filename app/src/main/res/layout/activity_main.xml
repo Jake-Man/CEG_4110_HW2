@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.MainActivity"
+    >
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/myClocks"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="187dp"
+                        android:layout_height="wrap_content"
+                        android:text="Clock name"/>
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/inputTitle"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:text="Current Time"/>
+
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    >
+
+                    <Button
+                        android:id="@+id/createNew"
+                        android:layout_width="187dp"
+                        android:layout_height="match_parent"
+                        android:text="Make clock with name"/>
+
+                    <Button
+                        android:id="@+id/toggleView"
+                        android:layout_width="187dp"
+                        android:layout_height="match_parent"
+                        android:text="Toggle View"/>
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/addSecond"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="add 1 Seconds"/>
+
+                    <Button
+                        android:id="@+id/subtractSecond"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="subtract 1 Seconds"/>
+
+
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <Button
+                        android:id="@+id/addMinute"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="Add 1 Minute"/>
+
+                    <Button
+                        android:id="@+id/subtractMinute"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="subtract 1 Minute"/>
+
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <Button
+                        android:id="@+id/addHour"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="Add 1 Hour"/>
+
+                    <Button
+                        android:id="@+id/subtractHour"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="subtract 1 Hour"/>
+
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/addDay"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="add 1 Day"/>
+
+                    <Button
+                        android:id="@+id/subtractDay"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="subtract 1 Day"/>
+
+
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <Button
+                        android:id="@+id/addMonth"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="Add 1 Month"/>
+
+                    <Button
+                        android:id="@+id/subtractMonth"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="subtract 1 Month"/>
+
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <Button
+                        android:id="@+id/addYear"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="Add 1 Year"/>
+
+                    <Button
+                        android:id="@+id/subtractYear"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="subtract 1 Year"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <Button
+                        android:id="@+id/undo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Undo" />
+
+                    <Button
+                        android:id="@+id/redo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Redo" />
+
+                </TableRow>
+
+
+
+
+            </TableLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</android.support.design.widget.CoordinatorLayout>
